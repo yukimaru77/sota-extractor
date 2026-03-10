@@ -1,0 +1,41 @@
+[
+  {
+    "categories": [],
+    "datasets": [
+      {
+        "dataset": "SMCalFlow",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Accuracy"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "Accuracy": "0.6678288729739917"
+              },
+              "model_links": [],
+              "model_name": "Seq2Seq (single model)",
+              "paper_date": "2020-08-16",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      }
+    ],
+    "description": "",
+    "source_link": {
+      "title": "SMCalFlow Leaderboard",
+      "url": "https://microsoft.github.io/task_oriented_dialogue_as_dataflow_synthesis/"
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Task-Oriented Dialogue as Dataflow Synthesis"
+  }
+]

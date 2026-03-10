@@ -9,9 +9,9 @@
         "description": "",
         "sota": {
           "metrics": [
+            "OVERALL",
             "IN-DOMAIN",
-            "OUT-OF-DOMAIN",
-            "OVERALL"
+            "OUT-OF-DOMAIN"
           ],
           "rows": [
             {

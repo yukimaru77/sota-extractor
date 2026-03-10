@@ -724,6 +724,51 @@
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "0.198",
+                "CHALLENGE-F1": "8.687",
+                "TEST-EM": "1.961",
+                "TEST-F1": "32.438"
+              },
+              "model_links": [],
+              "model_name": "XLQA (single model)",
+              "paper_date": "2021-05-31",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "26.389",
+                "CHALLENGE-F1": "55.009",
+                "TEST-EM": "72.952",
+                "TEST-F1": "89.374"
+              },
+              "model_links": [],
+              "model_name": "MacBERT-large-fact-evidence (single model)",
+              "paper_date": null,
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "27.976",
+                "CHALLENGE-F1": "56.160",
+                "TEST-EM": "77.140",
+                "TEST-F1": "91.425"
+              },
+              "model_links": [],
+              "model_name": "Macbert-QueryRestoration (single model)",
+              "paper_date": null,
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
             }
           ]
         },

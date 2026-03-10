@@ -16,6 +16,19 @@
             {
               "code_links": [],
               "metrics": {
+                "EM": "90.939",
+                "F1": "93.214"
+              },
+              "model_links": [],
+              "model_name": "IE-Net (ensemble)",
+              "paper_date": "2021-06-04",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "EM": "90.871",
                 "F1": "93.183"
               },
@@ -29,12 +42,12 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "90.758",
-                "F1": "93.044"
+                "EM": "90.860",
+                "F1": "93.100"
               },
               "model_links": [],
-              "model_name": "IE-Net (ensemble)",
-              "paper_date": "2021-02-23",
+              "model_name": "IE-NetV2 (ensemble)",
+              "paper_date": "2021-05-16",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -124,7 +137,7 @@
                 "F1": "92.839"
               },
               "model_links": [],
-              "model_name": "ELECTRA+ALBERT+EntitySpanFocus (ensemble)",
+              "model_name": "",
               "paper_date": "2020-05-04",
               "paper_title": "",
               "paper_url": "",
@@ -147,13 +160,13 @@
               "code_links": [],
               "metrics": {
                 "EM": "90.420",
-                "F1": "92.799"
+                "F1": "92.807"
               },
               "model_links": [],
-              "model_name": "ELECTRA+ALBERT+EntitySpanFocus (ensemble)",
-              "paper_date": "2020-06-21",
-              "paper_title": "",
-              "paper_url": "",
+              "model_name": "LANetV2 (ensemble)",
+              "paper_date": "2022-05-16",
+              "paper_title": "http://2digit.io/",
+              "paper_url": "http://2digit.io/",
               "uses_additional_data": false
             },
             {
@@ -176,8 +189,8 @@
                 "F1": "92.748"
               },
               "model_links": [],
-              "model_name": "EntitySpanFocus+AT (ensemble)",
-              "paper_date": "2020-09-11",
+              "model_name": "",
+              "paper_date": "2020-09-12",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -269,6 +282,19 @@
               "model_links": [],
               "model_name": "ALBERT + DAAF + Verifier (ensemble)",
               "paper_date": "2019-11-06",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "89.923",
+                "F1": "92.425"
+              },
+              "model_links": [],
+              "model_name": "LANet (ensemble)",
+              "paper_date": "2022-04-04",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -432,6 +458,19 @@
             {
               "code_links": [],
               "metrics": {
+                "EM": "89.235",
+                "F1": "91.900"
+              },
+              "model_links": [],
+              "model_name": "Deberta",
+              "paper_date": "2022-10-13",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "EM": "89.111",
                 "F1": "91.877"
               },
@@ -510,6 +549,32 @@
             {
               "code_links": [],
               "metrics": {
+                "EM": "88.998",
+                "F1": "91.635"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2021-09-15",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "88.998",
+                "F1": "91.635"
+              },
+              "model_links": [],
+              "model_name": "AE-TEST",
+              "paper_date": "2021-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "EM": "88.874",
                 "F1": "91.546"
               },
@@ -581,6 +646,19 @@
               "model_links": [],
               "model_name": "ELECTRA_ATT (single model)",
               "paper_date": "2020-08-13",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "88.603",
+                "F1": "91.299"
+              },
+              "model_links": [],
+              "model_name": "Deberta+prefix",
+              "paper_date": "2021-08-27",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -1420,6 +1498,19 @@
             {
               "code_links": [],
               "metrics": {
+                "EM": "84.123",
+                "F1": "87.013"
+              },
+              "model_links": [],
+              "model_name": "RoberTa+Parallel+Adapters (single model)",
+              "paper_date": "2023-09-29",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "EM": "84.292",
                 "F1": "86.967"
               },
@@ -1446,12 +1537,38 @@
             {
               "code_links": [],
               "metrics": {
+                "EM": "83.819",
+                "F1": "86.669"
+              },
+              "model_links": [],
+              "model_name": "SemNet (single model)",
+              "paper_date": "2021-06-02",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "EM": "83.751",
                 "F1": "86.594"
               },
               "model_links": [],
               "model_name": "Tuned BERT-1seq Large Cased (single model)",
               "paper_date": "2019-07-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "83.525",
+                "F1": "86.222"
+              },
+              "model_links": [],
+              "model_name": "SynNet (single model)",
+              "paper_date": "2021-06-01",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -1478,6 +1595,19 @@
               "model_links": [],
               "model_name": "BERT finetune baseline (ensemble)",
               "paper_date": "2018-12-13",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "82.961",
+                "F1": "86.075"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2021-05-26",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -1610,6 +1740,19 @@
               "paper_date": "2019-02-15",
               "paper_title": "",
               "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "82.306",
+                "F1": "85.670"
+              },
+              "model_links": [],
+              "model_name": "BART + Adapters + Lohfink-Rossi-Leaveout (single-model)",
+              "paper_date": "2021-08-05",
+              "paper_title": "https://adapterhub.ml/adapters/lohfink-rossi/facebook-bart-large_qa_squad2_lohfink-rossi-leaveout/",
+              "paper_url": "https://adapterhub.ml/adapters/lohfink-rossi/facebook-bart-large_qa_squad2_lohfink-rossi-leaveout/",
               "uses_additional_data": false
             },
             {
@@ -2174,6 +2317,19 @@
             {
               "code_links": [],
               "metrics": {
+                "EM": "78.933",
+                "F1": "81.863"
+              },
+              "model_links": [],
+              "model_name": "RoberTa+Fusion+Adapters (single model)",
+              "paper_date": "2023-09-29",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "EM": "78.481",
                 "F1": "81.531"
               },
@@ -2265,6 +2421,19 @@
             {
               "code_links": [],
               "metrics": {
+                "EM": "77.262",
+                "F1": "80.258"
+              },
+              "model_links": [],
+              "model_name": "RoberTa+Adapter (single model)",
+              "paper_date": "2023-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "EM": "77.003",
                 "F1": "80.209"
               },
@@ -2310,6 +2479,19 @@
               "model_links": [],
               "model_name": "synss (single model)",
               "paper_date": "2019-01-05",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "75.344",
+                "F1": "78.381"
+              },
+              "model_links": [],
+              "model_name": "mgrc",
+              "paper_date": "2021-05-21",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -3073,14 +3255,27 @@
             {
               "code_links": [],
               "metrics": {
+                "EM": "90.622",
+                "F1": "95.719"
+              },
+              "model_links": [],
+              "model_name": "{ANNA} (single model)",
+              "paper_date": "2021-07-24",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "EM": "90.202",
                 "F1": "95.379"
               },
               "model_links": [],
               "model_name": "LUKE (single model)",
               "paper_date": "2020-04-10",
-              "paper_title": "",
-              "paper_url": "",
+              "paper_title": "https://arxiv.org/abs/2010.01057",
+              "paper_url": "https://arxiv.org/abs/2010.01057",
               "uses_additional_data": false
             },
             {
@@ -3155,10 +3350,10 @@
                 "F1": "94.584"
               },
               "model_links": [],
-              "model_name": "BERTSP (single model)",
-              "paper_date": "2019-09-25",
-              "paper_title": "http://www.techkg.cn/",
-              "paper_url": "http://www.techkg.cn/",
+              "model_name": "",
+              "paper_date": "2019-10-01",
+              "paper_title": "",
+              "paper_url": "",
               "uses_additional_data": false
             },
             {
@@ -3528,6 +3723,19 @@
             {
               "code_links": [],
               "metrics": {
+                "EM": "82.681",
+                "F1": "89.379"
+              },
+              "model_links": [],
+              "model_name": "BERT-Base mod (single model)",
+              "paper_date": "2020-07-01",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "EM": "82.471",
                 "F1": "89.306"
               },
@@ -3560,6 +3768,19 @@
               "model_links": [],
               "model_name": "MARS (single model)",
               "paper_date": "2018-06-21",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "83.426",
+                "F1": "89.218"
+              },
+              "model_links": [],
+              "model_name": "Pytalk + Stanza + BERT (single model)",
+              "paper_date": "2020-12-28",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -3716,6 +3937,19 @@
               "model_links": [],
               "model_name": "r-net (single model)",
               "paper_date": "2018-04-23",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "80.667",
+                "F1": "88.169"
+              },
+              "model_links": [],
+              "model_name": "mBERT + Task Adapter (Single)",
+              "paper_date": "2020-11-20",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false

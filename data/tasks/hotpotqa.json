@@ -30,8 +30,25 @@
               "model_links": [],
               "model_name": "AISO",
               "paper_date": "2021-05-10",
-              "paper_title": "",
-              "paper_url": "",
+              "paper_title": "Zhu, Pang et al., EMNLP 2021",
+              "paper_url": "https://arxiv.org/abs/2109.06747",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.674",
+                "ANS-F1": "0.801",
+                "JOINT-EM": "0.457",
+                "JOINT-F1": "0.717",
+                "SUP-EM": "0.613",
+                "SUP-F1": "0.853"
+              },
+              "model_links": [],
+              "model_name": "Chain-of-Skills",
+              "paper_date": "2023-02-01",
+              "paper_title": "Ma et al. ACL 2023",
+              "paper_url": "https://arxiv.org/abs/2305.03130",
               "uses_additional_data": false
             },
             {
@@ -275,6 +292,23 @@
             {
               "code_links": [],
               "metrics": {
+                "ANS-EM": "0.646",
+                "ANS-F1": "0.778",
+                "JOINT-EM": "0.411",
+                "JOINT-F1": "0.670",
+                "SUP-EM": "0.557",
+                "SUP-F1": "0.812"
+              },
+              "model_links": [],
+              "model_name": "AFSGraph-retriever",
+              "paper_date": "2021-12-05",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "ANS-EM": "0.643",
                 "ANS-F1": "0.772",
                 "JOINT-EM": "0.363",
@@ -411,6 +445,57 @@
             {
               "code_links": [],
               "metrics": {
+                "ANS-EM": "0.615",
+                "ANS-F1": "0.746",
+                "JOINT-EM": "0.362",
+                "JOINT-F1": "0.624",
+                "SUP-EM": "0.503",
+                "SUP-F1": "0.772"
+              },
+              "model_links": [],
+              "model_name": "Multi-dimensional-AFSGraph",
+              "paper_date": "2021-11-16",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.617",
+                "ANS-F1": "0.746",
+                "JOINT-EM": "0.368",
+                "JOINT-F1": "0.629",
+                "SUP-EM": "0.500",
+                "SUP-F1": "0.772"
+              },
+              "model_links": [],
+              "model_name": "Model name",
+              "paper_date": "2021-11-25",
+              "paper_title": "paper name",
+              "paper_url": "paper link",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.617",
+                "ANS-F1": "0.746",
+                "JOINT-EM": "0.368",
+                "JOINT-F1": "0.629",
+                "SUP-EM": "0.500",
+                "SUP-F1": "0.772"
+              },
+              "model_links": [],
+              "model_name": "HopAns",
+              "paper_date": "2021-11-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "ANS-EM": "0.608",
                 "ANS-F1": "0.739",
                 "JOINT-EM": "0.380",
@@ -438,6 +523,23 @@
               "model_links": [],
               "model_name": "Anonymous",
               "paper_date": "2020-11-21",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.603",
+                "ANS-F1": "0.731",
+                "JOINT-EM": "0.359",
+                "JOINT-F1": "0.617",
+                "SUP-EM": "0.499",
+                "SUP-F1": "0.768"
+              },
+              "model_links": [],
+              "model_name": "Tree-shaped-cluster",
+              "paper_date": "2021-08-20",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -574,8 +676,8 @@
               "model_links": [],
               "model_name": "SAFSR model",
               "paper_date": "2020-07-28",
-              "paper_title": "",
-              "paper_url": "",
+              "paper_title": "Lang, et al. 2021",
+              "paper_url": "https://arxiv.org/pdf/1809.09600.pdf",
               "uses_additional_data": false
             },
             {
@@ -591,6 +693,23 @@
               "model_links": [],
               "model_name": "HGN-albert + SemanticRetrievalMRS IR",
               "paper_date": "2020-02-11",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.581",
+                "ANS-F1": "0.711",
+                "JOINT-EM": "0.000",
+                "JOINT-F1": "0.000",
+                "SUP-EM": "0.000",
+                "SUP-F1": "0.000"
+              },
+              "model_links": [],
+              "model_name": "PromptRank-fewshot-2-demo",
+              "paper_date": "2022-12-14",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -693,8 +812,8 @@
               "model_links": [],
               "model_name": "Quark + SemanticRetrievalMRS IR",
               "paper_date": "2019-12-09",
-              "paper_title": "",
-              "paper_url": "",
+              "paper_title": "A Simple Yet Strong Pipeline for HotpotQA",
+              "paper_url": "https://www.semanticscholar.org/paper/A-Simple-Yet-Strong-Pipeline-for-HotpotQA-Groeneveld-Khot/c6c547e5ecb",
               "uses_additional_data": false
             },
             {
@@ -1023,6 +1142,40 @@
             {
               "code_links": [],
               "metrics": {
+                "ANS-EM": "0.369",
+                "ANS-F1": "0.460",
+                "JOINT-EM": "0.115",
+                "JOINT-F1": "0.291",
+                "SUP-EM": "0.153",
+                "SUP-F1": "0.468"
+              },
+              "model_links": [],
+              "model_name": "AnonymousQ",
+              "paper_date": "2022-07-09",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.369",
+                "ANS-F1": "0.460",
+                "JOINT-EM": "0.115",
+                "JOINT-F1": "0.291",
+                "SUP-EM": "0.153",
+                "SUP-F1": "0.468"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2024-02-13",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "ANS-EM": "0.358",
                 "ANS-F1": "0.453",
                 "JOINT-EM": "0.115",
@@ -1040,6 +1193,23 @@
             {
               "code_links": [],
               "metrics": {
+                "ANS-EM": "0.335",
+                "ANS-F1": "0.427",
+                "JOINT-EM": "0.110",
+                "JOINT-F1": "0.284",
+                "SUP-EM": "0.156",
+                "SUP-F1": "0.493"
+              },
+              "model_links": [],
+              "model_name": "HGN Model-reproduce",
+              "paper_date": "2023-05-16",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "ANS-EM": "0.300",
                 "ANS-F1": "0.407",
                 "JOINT-EM": "0.000",
@@ -1048,10 +1218,10 @@
                 "SUP-F1": "0.000"
               },
               "model_links": [],
-              "model_name": "DecompRC",
+              "model_name": "",
               "paper_date": "2019-03-01",
-              "paper_title": "Min et al., ACL'18",
-              "paper_url": "https://arxiv.org/pdf/1906.02916.pdf",
+              "paper_title": "",
+              "paper_url": "",
               "uses_additional_data": false
             },
             {
@@ -1220,6 +1390,40 @@
               "model_links": [],
               "model_name": "SuppBERT",
               "paper_date": "2019-03-15",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.080",
+                "ANS-F1": "0.221",
+                "JOINT-EM": "0.000",
+                "JOINT-F1": "0.000",
+                "SUP-EM": "0.000",
+                "SUP-F1": "0.000"
+              },
+              "model_links": [],
+              "model_name": "Mistral multi hop with very large sources",
+              "paper_date": "2024-06-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.074",
+                "ANS-F1": "0.121",
+                "JOINT-EM": "0.000",
+                "JOINT-F1": "0.011",
+                "SUP-EM": "0.000",
+                "SUP-F1": "0.078"
+              },
+              "model_links": [],
+              "model_name": "tes",
+              "paper_date": "2023-11-26",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false

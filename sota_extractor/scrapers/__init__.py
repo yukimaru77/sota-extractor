@@ -28,5 +28,8 @@ from sota_extractor.scrapers.cmrc import cmrc
 from sota_extractor.scrapers.record import record
 from sota_extractor.scrapers.hotpotqa import hotpotqa
 from sota_extractor.scrapers.smcalflow import smcalflow
-from sota_extractor.scrapers.xtreme import xtreme
+try:
+    from sota_extractor.scrapers.xtreme import xtreme
+except ImportError:  # optional dependency (_jsonnet)
+    xtreme = None
 from sota_extractor.scrapers.ogb import ogb
