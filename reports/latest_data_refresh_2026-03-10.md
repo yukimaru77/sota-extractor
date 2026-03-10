@@ -1,10 +1,10 @@
-# Latest data refresh summary (2026-03-10)
+# 最新データ更新レポート（2026-03-10）
 
-This refresh reran the currently working scrapers against their live upstream sources on 2026-03-10.
+2026-03-10 時点で、現在動作するスクレイパーを live な upstream ソースに対して再実行し、SOTA データを取り直しました。
 
-## What changed
+## 更新内容の概要
 
-| File | Before | After | Delta |
+| ファイル | 更新前 | 更新後 | 増減 |
 |---|---:|---:|---:|
 | `data/tasks/chexpert.json` | 175 rows | 213 rows | +38 |
 | `data/tasks/cmrc.json` | 54 rows | 57 rows | +3 |
@@ -16,20 +16,20 @@ This refresh reran the currently working scrapers against their live upstream so
 | `data/tasks/redditsota.json` | 32 rows | 32 rows | 0 |
 | `data/tasks/snli.json` | 64 rows | 68 rows | +4 |
 | `data/tasks/squad.json` | 451 rows | 469 rows | +18 |
-| `data/tasks/smcalflow.json` | not present | 1 row | +1 new file |
+| `data/tasks/smcalflow.json` | 未収録 | 1 row | +1 新規 |
 
-## Biggest updates
+## 大きな変化
 
-- **OGB** grew the most: **244 → 481 rows**.
-- **NLP Progress** also expanded significantly: **559 → 692 rows**.
-- **EFF** remained the broadest source after refresh: **1748 rows** across **109 datasets**.
-- **HotpotQA**, **SQuAD**, **CheXpert**, **SNLI**, and **CMRC** all picked up fresh rows.
-- **CoQA** and **RedditSOTA** were re-scraped but row counts stayed flat.
-- **SmCalFlow** produced a new task file that was not tracked in the repository before.
+- **OGB** が最も大きく増加し、**244 → 481 rows** になりました。
+- **NLP Progress** も大きく増加し、**559 → 692 rows** になりました。
+- **EFF** は更新後も最も広いカバレッジを持ち、**109 datasets / 1748 rows** です。
+- **HotpotQA**, **SQuAD**, **CheXpert**, **SNLI**, **CMRC** でも追加行が確認できました。
+- **CoQA** と **RedditSOTA** は再取得しましたが、行数に変化はありませんでした。
+- **SmCalFlow** は、これまで追跡されていなかった task file を新規生成しました。
 
-## A few notable “latest” entries seen in refreshed data
+## 更新後データ中で見つかった比較的新しいエントリ例
 
-These are not global winners; they are recent rows found in the refreshed task files.
+以下は「更新後データに含まれていた新しめの行」の例です。全体での最良値一覧という意味ではなく、今回の再取得で確認できた代表例です。
 
 - **HotpotQA**
   - `2024-06-25` — `Mistral multi hop with very large source`
@@ -41,19 +41,19 @@ These are not global winners; they are recent rows found in the refreshed task f
 - **CMRC**
   - `2021-05-31` — `XLQA (single model)`
 - **OGB**
-  - entries dated `2026-01-09` and `2026-01-11` are present upstream and were preserved as-is by the scraper
+  - upstream 側のデータとして `2026-01-09` および `2026-01-11` の日付を持つエントリが存在しており、スクレイパーはそのまま保持しています。
 
-## Operational notes
+## 実行・保守上のメモ
 
-- The repository’s original dependency pins were too old for the current Python 3.12 environment, so `requirements.txt` was modernized.
-- The `xtreme` scraper still depends on optional `_jsonnet` support and was left as an optional path.
-- `cityscapes` currently fails with `DataError(message=Got an unexpected number of SOTA tables.)`, which suggests upstream page structure drift.
+- 元の依存関係指定は現在の Python 3.12 環境ではそのまま動かなかったため、`requirements.txt` を現行環境向けに更新しました。
+- `xtreme` スクレイパーは optional な `_jsonnet` 依存を必要とするため、今回は optional 扱いのままにしています。
+- `cityscapes` は現在 `DataError(message=Got an unexpected number of SOTA tables.)` で失敗します。upstream ページ構造の変化が原因の可能性が高いです。
 
-## Sample code
+## サンプルコード
 
-See `examples/explore_latest_results.py` for a simple way to load a refreshed JSON task file and print recent entries.
+更新後の JSON task file を読み込んで、比較的新しいエントリを表示する簡単なサンプルを `examples/explore_latest_results.py` に追加しました。
 
-Example:
+実行例:
 
 ```bash
 python examples/explore_latest_results.py
